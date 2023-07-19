@@ -1,0 +1,127 @@
+/* Common styles start  */
+:root{
+    font-family: 'Work Sans', sans-serif;
+    --primary-color: #FF42A5;
+    --secondary-color: #4EC5F7;
+    --third-color: #0B0223; 
+    --gradient: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --margin-x: 15rem;
+    --margin-y: 7.5rem;
+    --padding: 0.5rem;
+    --transition: all 0.3s;
+    --border-radius: 0.6rem;
+    --box-shadow: 0.1rem .2rem, 0.8rem rgba(205,202,202,0.5)
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 100%;
+    height: auto;  
+}
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.flex-gap{
+    display: flex;
+    gap: 1rem;
+    align-items: center
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    padding: var(--padding);
+    cursor: pointer;
+    transition: var(--transition);
+}
+/* .btn:hover {
+    background-color: ;
+} */
+.text-center{
+    text-align: center;
+}
+.heading{
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.para{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Reset code and common ends here */
+
+/* Common styles ends  */
+
+/* Header section styles start  */
+/* Nav styles start  */
+header nav .logo-container img{
+    width: 80px;
+    height: 32px;
+    flex-shrink: 0;
+}
+header nav .logo-container img{
+    width: 80px;
+    height: 32px;
+    flex-shrink: 0;
+}
+nav .para {
+    font-weight: 500;
+}
+.social-icons{
+    width: 262px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.social-icons .facebook{
+    color: red;
+}
+/* Nav styles ends  */
+/* Banner styles start  */
+/* Banner styles ends  */
+/* Headers styles end  */
+
+/* Main section styles start  */
+
+/* Main section styles end  */
+
+/* Footer section styles start  */
+
+/* Footer section styles end  */

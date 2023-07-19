@@ -14,27 +14,40 @@
 </head>
 <body>
     <!-- Header section starts  -->
-    <section class="header-section">
+    <section class="header-section border-1">
         <header>
-            <nav class="flex-space-between">
-                <div class="logo-container flex-gap">
-                    <img src="images/Frame.png" alt="">
-                    <p class="logo-heading heading"> <span style="color: var(--primary-color);">G</span>amer</p>
+            <div class="nav-content border-2">
+                <nav class="flex-space-between content-max-width">
+                    <div class="logo-container flex-gap">
+                        <img src="images/Frame.png" alt="">
+                        <p class="logo-heading heading"> <span style="color: var(--primary-color);">G</span>amer</p>
+                    </div>
+                    <ul class="para flex-gap">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Developers</a></li>
+                        <li>
+                            <ul class="social-icons flex-space-around" >
+                                <li>Follow Us On</li>
+                                <li class="nav-icon"><i class="fab fa-youtube facebook"></i></li>
+                                <li class="nav-icon"><i class="fa-brands fa-tiktok"></i></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="banner border-3">
+                <div class="banner-content two-column content-max-width">
+                    <div class="col-1 border-1">
+                        <h3 class="para">Play Like The</h3>
+                        <p class="heading gradient">G.O.A.T</p>
+                        <p class="para">1-Click instant play</p>
+                        <p class="para">No Download</p>
+                        <p class="para">1000s of supported online games</p>
+                    </div>
+                    <div class="col-2 border-3">
+                        <img src="images/banner-pic.png" alt="">
+                    </div>
                 </div>
-                <ul class="para flex-gap">
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Developers</a></li>
-                    <li>
-                        <ul class="social-icons flex-space-around" >
-                            <li>Follow Us On</li>
-                            <li class="nav-icon"><i class="fab fa-youtube facebook"></i></li>
-                            <li class="nav-icon"><i class="fa-brands fa-tiktok"></i></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            <div class="banner">
-                <img src="" alt="">
             </div>
         </header>
     </section>
@@ -42,17 +55,58 @@
     <!-- Main section starts  -->
     <section class="main-section">
         <main>
-            Main section
+            <!-- Games section  -->
+            <section class="games">
+                 <div class="games-content content-max-width flex-center-column">                   
+                    <div class="heading margin-tb-16">Online Games <span class="gradient">Funny Videos</span></div>
+                    <div class="para margin-b-16">A Collection of Hilarious Videos to Brighten Your Day</div>
+                    <div class="games-pic-container gap">
+                        <div class="card card-1 flex-center-column">
+                            <img src="images/games-1.png" alt="">
+                            <p class="para">No Download. No Installs. Play games Instantly on Gamer.</p>
+                        </div>
+                        <div class="card card-2 flex-center-column">
+                            <img src="images/games-2.png" alt="">
+                            <p class="para">Did you score?</p>
+                        </div>
+                        <div class="card card-3 flex-center-column">
+                            <img src="images/games-3.png" alt="">
+                            <p class="para">Breaking game records like OG</p>
+                        </div>
+                        <div class="card card-4 flex-center-column">
+                            <img src="images/games-4.png" alt="">
+                            <p class="para">Busted gaming on school laptop, but you are still lit.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Play section -->
+            <div class="play border-3">
+                <div class="play-content two-column content-max-width gap">
+                    <div class="col-1 border-1">
+                        <p class="heading gradient">Play Instantly,</p>
+                        <p class="heading">Play Instantly,</p>
+                        <p class="heading">No Downloads,</p>
+                        <p class="para margin-tb-16">Play games online for free without downloading. Just click the Play button and play instantly in your browser.</p>
+                    </div>
+                    <div class="col-2 border-3">
+                        <img src="images/play-1.png" alt="Image 1" class="image-1">
+                        <img src="images/play-2.png" alt="Image 2" class="image-2">                    
+                    </div>
+                </div>
+            </div>
         </main>
     </section>
     <!-- Main section ends  -->
     <!-- Footer section starts  -->
-    <section class="footer-section">
+    <!-- <section class="footer-section section-content">
         <footer>
             Footer All rights reserved 
         </footer>
-    </section>
-    <!-- Footer section ends  -->
-    
+    </section> -->
+    <!-- Footer section ends  -->   
+         
+   
 </body>
 </html>

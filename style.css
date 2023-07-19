@@ -8,7 +8,6 @@
     --margin-x: 15rem;
     --margin-y: 7.5rem;
     --padding: 0.5rem;
-    --transition: all 0.3s;
     --border-radius: 0.6rem;
     --box-shadow: 0.1rem .2rem, 0.8rem rgba(205, 202, 202, 0.5)
 }
@@ -42,20 +41,6 @@ img {
 .margin-b-16 {
     margin: 1rem 0px;
 }
-
-.border-1 {
-    border: 2px solid red;
-}
-
-.border-2 {
-    border: 2px solid yellow;
-}
-
-.border-3 {
-    border: 2px solid blue;
-}
-
-
 .flex-space-around {
     display: flex;
     justify-content: space-around;

@@ -41,6 +41,7 @@ img {
 .margin-b-16 {
     margin: 1rem 0px;
 }
+
 .flex-space-around {
     display: flex;
     justify-content: space-around;
@@ -243,6 +244,10 @@ nav .para {
 }
 
 /* play section styles start  */
+.play {
+    padding-top: 60px;
+}
+
 .play .col-1 {
     margin: 0px 80px;
     text-align: right;
@@ -421,21 +426,27 @@ footer .link-policy a {
     }
 
     /* Play responsive  */
-    .play .col-1 .heading{
+    .play .col-1 .heading {
         font-size: 25px;
         margin-top: 20px;
     }
+
     .play .image-2 {
         right: 1px;
     }
+
     .play .col-2 {
-       padding: 0px 20px;
+        padding: 0px 20px;
     }
+
     .play .col-1 p {
         text-align: center;
     }
 
     /* icons responsive  */
+    .icon-content {
+        padding: 0px 30px;
+    }
     .icon-content .icon {
         width: 33%;
         /* Adjust the width as needed */
@@ -473,18 +484,23 @@ footer .link-policy a {
         display: flex;
         gap: 5px;
     }
+
     .games-pic-container {
         padding: 30px;
     }
-    .play .col-1 .heading{
+
+    .play .col-1 .heading {
         font-size: 25px;
     }
+
     .play .image-2 {
         right: 1px;
     }
+
     .play .col-2 {
-       padding: 0px 20px;
+        padding: 0px 20px;
     }
+
     .play .two-column {
         gap: 10px;
     }
@@ -495,6 +511,7 @@ footer .link-policy a {
     header {
         padding: 50px 70px;
     }
+
     .games-pic-container {
         padding: 0px 80px;
     }

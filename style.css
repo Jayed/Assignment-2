@@ -229,6 +229,30 @@ nav .para {
     width: 250px;
 }
 
+.games-pic-container .card-3 {
+    position: relative;
+}
+
+.games-pic-container .card-3 i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.games-pic-container .card-3 img:hover {
+    opacity: 0.5;
+    /* Adjust the opacity value as desired */
+}
+
 /* play section styles start  */
 .play .col-1 {
     margin: 0px 80px;
@@ -311,6 +335,7 @@ nav .para {
 .footer-section {
     padding: 80px 0px;
 }
+
 /* footer .logo-container{
     display: flex;
 } */
@@ -327,21 +352,26 @@ footer a {
     text-align: center;
     font-size: 10px;
 }
-footer .link-content ul{
+
+footer .link-content ul {
     display: flex;
     flex-wrap: wrap;
- }
+}
+
 footer .link-icons a {
     font-size: 20px
 }
-footer .link-icons ul{
-   display: flex;
-   flex-wrap: wrap;
+
+footer .link-icons ul {
+    display: flex;
+    flex-wrap: wrap;
 }
-footer .link-policy ul{
-   display: flex;
-   flex-wrap: wrap;
+
+footer .link-policy ul {
+    display: flex;
+    flex-wrap: wrap;
 }
+
 footer .link-policy a {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
@@ -408,22 +438,25 @@ footer .link-policy a {
 
     /* icons responsive  */
     .icon-content .icon {
-        width: 33%; /* Adjust the width as needed */
+        width: 33%;
+        /* Adjust the width as needed */
     }
 
     /* games responsive  */
 
     /* Footer responsive  */
-    footer .link-icons ul li{
+    footer .link-icons ul li {
         width: 25%;
     }
-    footer .link-content ul li{
+
+    footer .link-content ul li {
         width: 25%;
     }
-    footer .link-policy ul li{
+
+    footer .link-policy ul li {
         width: 40%;
     }
-    
+
 }
 
 /* Tab styles  */

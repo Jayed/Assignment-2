@@ -177,7 +177,28 @@ nav .para {
 .banner .col-1 {
     padding-left: 1rem;
 }
-
+.banner .button-container{
+    margin: 1rem 0rem 0rem 1.1rem;
+}
+.banner .button-container button{
+    color: #FFF;
+    border-radius: 48px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 18px;
+    border: none;
+}
+.banner .button-container .btn-1{
+    background: var(--primary-color);
+    margin-right: 0.5rem;
+}
+.banner .button-container .btn-2{
+    background: var(--secondary-color);
+}
+.banner .button-container button:hover{
+        opacity: 80%;
+}
 .banner .col-1 h3 {
     color: #0B0223;
     font-size: 20px;
@@ -482,7 +503,7 @@ footer .link-policy a {
 /* Tab styles  */
 @media screen and (min-width: 576px) and (max-width: 768px) {
     header {
-        padding: 20px 30px 50px 10px;
+        padding: 50px 30px 50px 10px;
     }
     .games{
         padding: 0rem 2rem;
@@ -514,9 +535,9 @@ footer .link-policy a {
 }
 
 /* PC styles  */
-@media screen and (min-width: 768px) and (max-width: 1400px) {
+@media screen and (min-width: 768px) and (max-width: 2560px) {
     header {
-        padding: 20px 30px 50px 10px;
+        padding: 30px 60px 50px 60px;
     }
 
     .games-pic-container {
